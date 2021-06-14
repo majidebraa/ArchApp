@@ -1,0 +1,19 @@
+apply from: '../../android_feature_dependencies.gradle'
+
+android {
+    defaultConfig {
+        testInstrumentationRunner "com.majidebrahimi.common_test.FakeRunner"
+    }
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+    testOptions {
+        animationsDisabled = true
+    }
+}
+
+dependencies {
+    // COIL
+    implementation Libraries.coil
+}

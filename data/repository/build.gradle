@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+apply from: '../../android_commons.gradle'
+
+android{
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
+dependencies {
+    // MODULES
+    implementation project(Modules.domain)
+    implementation project(Modules.remote)
+    implementation project(Modules.local)
+    // ANDROID
+    implementation KotlinLibraries.kotlinCoroutineCore
+    implementation AndroidLibraries.kotlinCoroutineAndroid
+    implementation AndroidLibraries.lifecycleLiveData
+    // KOIN
+    implementation Libraries.koin
+    //implementation Libraries.koinViewModel
+    // TESTS
+    testImplementation TestLibraries.junit
+    testImplementation TestLibraries.mockk
+    testImplementation TestLibraries.archCoreTest
+    testImplementation TestLibraries.coroutine
+    testImplementation project(Modules.commonTest)
+}

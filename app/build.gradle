@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+apply from: '../android_commons.gradle'
+
+android {
+    defaultConfig {
+        applicationId ApplicationId.id
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
+dependencies {
+    // COMMON
+    implementation project(Modules.common)
+    // DATA modules
+    implementation project(Modules.local)
+    implementation project(Modules.remote)
+    implementation project(Modules.repository)
+    // DOMAIN MODULE
+    implementation project(Modules.domain)
+    // FEATURES modules
+    implementation project(Modules.featureHome)
+    implementation project(Modules.featureDetail)
+    // NAVIGATION
+    implementation project(Modules.navigation)
+    // KOIN
+    implementation Libraries.koin
+    //implementation Libraries.koinViewModel
+    // ANDROID
+    implementation AndroidLibraries.appCompat
+    implementation AndroidLibraries.navigation
+    implementation AndroidLibraries.navigationFrag
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArchApp.iml" filepath="$PROJECT_DIR$/.idea/modules/ArchApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ArchApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ArchApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArchApp.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/ArchApp.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/ArchApp.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/ArchApp.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common_test/ArchApp.common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common_test/ArchApp.common_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/ArchApp.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/ArchApp.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/local/ArchApp.data.local.iml" filepath="$PROJECT_DIR$/.idea/modules/data/local/ArchApp.data.local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/model/ArchApp.data.model.iml" filepath="$PROJECT_DIR$/.idea/modules/data/model/ArchApp.data.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/remote/ArchApp.data.remote.iml" filepath="$PROJECT_DIR$/.idea/modules/data/remote/ArchApp.data.remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/repository/ArchApp.data.repository.iml" filepath="$PROJECT_DIR$/.idea/modules/data/repository/ArchApp.data.repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/ArchApp.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/ArchApp.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/ArchApp.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/ArchApp.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/detail/ArchApp.features.detail.iml" filepath="$PROJECT_DIR$/.idea/modules/features/detail/ArchApp.features.detail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/home/ArchApp.features.home.iml" filepath="$PROJECT_DIR$/.idea/modules/features/home/ArchApp.features.home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/ArchApp.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/ArchApp.navigation.iml" />
+    </modules>
+  </component>
+</project>

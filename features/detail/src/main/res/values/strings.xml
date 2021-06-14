@@ -1,0 +1,4 @@
+<resources>
+    <string name="transition_avatar_orig" translatable="false">transition_avatar_orig</string>
+    <string name="transition_avatar_dest" translatable="false">transition_avatar_dest</string>
+</resources>

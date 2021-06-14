@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test.espresso:espresso-contrib:3.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7d1e99c6b5d3e383495163efec7d7c75/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a60b095309a299b9253164725c692f8/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e157c631b88f821390eb76454512870/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a6143a245554b1f470988d3f384a9c61/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d51e3b37cdec1e28ba61275b16d7e4e/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/658af7fdde00dc8fe7cfa5faafd4795d/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5cfc2e63a2f23884279f0f3c96b5e04b/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0d43a9f6532f6a3497fe0860c29c67e/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8334d89a79e001bb19b2067f21dfc63d/espresso-contrib-3.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8334d89a79e001bb19b2067f21dfc63d/espresso-contrib-3.3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8334d89a79e001bb19b2067f21dfc63d/espresso-contrib-3.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.espresso/espresso-contrib/3.3.0/78d6e8ecb2b71dae144339d65fe060b7ee4e95bb/espresso-contrib-3.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.espresso/espresso-contrib/3.3.0/d6a1de98eb08b811198fb2a65ee42b007656948d/espresso-contrib-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

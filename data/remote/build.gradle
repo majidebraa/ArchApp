@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+apply from: '../../android_commons.gradle'
+
+android{
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+
+dependencies {
+    // KOTLIN
+    implementation KotlinLibraries.kotlin
+    // NETWORK
+    implementation Libraries.retrofitCoroutineAdapter
+    implementation Libraries.gson
+    implementation Libraries.retrofit
+    implementation Libraries.retrofitGsonConverter
+    implementation Libraries.httpLoggingInterceptor
+    // DATA MODULE
+    implementation project(Modules.model)
+    // KOIN
+    implementation Libraries.koin
+    //implementation Libraries.koinViewModel
+    // TEST
+    testImplementation TestLibraries.junit
+    testImplementation TestLibraries.koin
+    testImplementation TestLibraries.mockWebServer
+}
