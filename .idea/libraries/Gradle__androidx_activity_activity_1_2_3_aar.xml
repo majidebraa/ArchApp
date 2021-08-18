@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.activity:activity:1.2.3@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f8d06c69e9875a55e40aa463d1f771f/jetified-activity-1.2.3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ad2040040e94d6514fd51a3cf0aae80c/transformed/jetified-activity-1.2.3/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/726abed9391ad9b8245aaac5a60ed866/jetified-activity-1.2.3/res" />
@@ -14,8 +14,11 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04aba580d1710bfca0cf55441b7aec52/jetified-activity-1.2.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acc369e8cec3344ffa65a2884551d8ed/jetified-activity-1.2.3/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f8d06c69e9875a55e40aa463d1f771f/jetified-activity-1.2.3/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f8d06c69e9875a55e40aa463d1f771f/jetified-activity-1.2.3/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5f8d06c69e9875a55e40aa463d1f771f/jetified-activity-1.2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0741d928a6cf869e316b82b0c8037411/jetified-activity-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a3653eeda7323f6811c8ff3cb5858f28/transformed/jetified-activity-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad2040040e94d6514fd51a3cf0aae80c/transformed/jetified-activity-1.2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ad2040040e94d6514fd51a3cf0aae80c/transformed/jetified-activity-1.2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ad2040040e94d6514fd51a3cf0aae80c/transformed/jetified-activity-1.2.3/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

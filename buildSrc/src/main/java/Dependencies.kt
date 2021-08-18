@@ -27,7 +27,7 @@ object Releases {
 }
 
 object Versions {
-    const val kotlin = "1.5.10"
+    const val kotlin = "1.5.21"
     const val gradle = "3.6.2"
     const val compileSdk = 30
     const val buildToolsVersion = "30.0.3"
@@ -51,7 +51,7 @@ object Versions {
     const val room = "2.3.0"
     const val recyclerview = "1.2.0"
     const val coil = "1.2.2"
-    const val mockwebserver = "4.9.1"
+    const val mockwebserver = "2.7.5"
     const val archCoreTest = "2.1.0"
     const val androidJunit = "1.1.0"
     const val mockk = "1.11.0"
