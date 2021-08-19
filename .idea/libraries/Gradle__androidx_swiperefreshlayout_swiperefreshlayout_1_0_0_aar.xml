@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/28693639aa5b4e63d9262fdeea8c9ceb/transformed/swiperefreshlayout-1.0.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a0d1d8dd57c935a0be146d955ee729bf/transformed/swiperefreshlayout-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e8e34fd6457c1548b158b8b8f7fc1a4/swiperefreshlayout-1.0.0/res" />
@@ -29,9 +29,10 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21c6e03f4c43d2b914c4996a0dd9bc5f/swiperefreshlayout-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8453dbcc90fc9fac78bb899b79210a65/swiperefreshlayout-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63c6b7f01ff18b87088f0ad34d5b22a9/transformed/swiperefreshlayout-1.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/28693639aa5b4e63d9262fdeea8c9ceb/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/28693639aa5b4e63d9262fdeea8c9ceb/transformed/swiperefreshlayout-1.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/28693639aa5b4e63d9262fdeea8c9ceb/transformed/swiperefreshlayout-1.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a0d1d8dd57c935a0be146d955ee729bf/transformed/swiperefreshlayout-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a0d1d8dd57c935a0be146d955ee729bf/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a0d1d8dd57c935a0be146d955ee729bf/transformed/swiperefreshlayout-1.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

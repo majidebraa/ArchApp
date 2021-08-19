@@ -6,7 +6,7 @@ android {
     }
     buildFeatures {
         dataBinding = true
-        viewBinding = true
+        viewBinding  true
     }
     testOptions {
         animationsDisabled = true

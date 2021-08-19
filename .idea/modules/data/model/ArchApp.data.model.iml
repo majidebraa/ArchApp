@@ -4,8 +4,8 @@
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":data:model" />
-        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="7.0.0" />
-        <option name="LAST_KNOWN_AGP_VERSION" value="7.0.0" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="7.0.1" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="7.0.1" />
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
@@ -15,7 +15,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../../data/model/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$MODULE_DIR$/../../../../data/model/build/intermediates/compile_r_class_jar/debug/R.jar;C:/Users/Majid/.gradle/caches/transforms-3/2d1e1e1efa5dae9fe82ea9685f94df2c/transformed/jetified-kotlin-stdlib-jdk7-1.5.21.jar;C:/Users/Majid/.gradle/caches/transforms-3/6ef3b7a2a6ea43f3a4c4475fe73e5677/transformed/jetified-kotlin-stdlib-1.5.21.jar;C:/Users/Majid/.gradle/caches/transforms-3/f231919c023a68df6686087ca44154d7/transformed/jetified-annotations-13.0.jar;C:/Users/Majid/.gradle/caches/transforms-3/daf30c9901164e7f05ba3adb9b5554ce/transformed/jetified-kotlin-stdlib-common-1.5.21.jar;C:/Users/Majid/.gradle/caches/transforms-3/79213e0e7d740e1f09a24042d0913f7c/transformed/jetified-gson-2.8.6.jar;C:/Users/Majid/.gradle/caches/transforms-3/4911b57dc829199362f98af11c6db83b/transformed/room-runtime-2.3.0-api.jar;C:/Users/Majid/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar;C:/Users/Majid/.gradle/caches/transforms-3/735113793afa5883ee7a1ec9819bd4aa/transformed/sqlite-framework-2.1.0-api.jar;C:/Users/Majid/.gradle/caches/transforms-3/b1eda32630d05ed82720999507c41eea/transformed/sqlite-2.1.0-api.jar;C:/Users/Majid/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar;C:/Users/Majid/AppData/Local/Android/Sdk/platforms/android-30/android.jar;C:/Users/Majid/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="classpath" value="$MODULE_DIR$/../../../../data/model/build/intermediates/compile_r_class_jar/debug/R.jar;C:/Users/Majid/.gradle/caches/transforms-3/ecba740049607bdb4d12c85bb6dfa016/transformed/jetified-kotlin-stdlib-jdk7-1.5.21.jar;C:/Users/Majid/.gradle/caches/transforms-3/d2c5963e27082d6b6b18ec9f1793fb14/transformed/jetified-kotlin-stdlib-1.5.21.jar;C:/Users/Majid/.gradle/caches/transforms-3/0a06f0931b1ad2806d92a2d30f1dab2c/transformed/jetified-annotations-13.0.jar;C:/Users/Majid/.gradle/caches/transforms-3/2b30dfd0207455ea4d5d5a39f8479c9d/transformed/jetified-kotlin-stdlib-common-1.5.21.jar;C:/Users/Majid/.gradle/caches/transforms-3/3fa370029c29c9faa837d6208149d8d6/transformed/jetified-gson-2.8.6.jar;C:/Users/Majid/.gradle/caches/transforms-3/cfbff8b0e653647931085ae0b4d83e0f/transformed/room-runtime-2.3.0-api.jar;C:/Users/Majid/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar;C:/Users/Majid/.gradle/caches/transforms-3/fdea42d85a8960bd3fb4a586a5fe1aa6/transformed/sqlite-framework-2.1.0-api.jar;C:/Users/Majid/.gradle/caches/transforms-3/7d8e3cbf2afaf22fb4840af517d17f20/transformed/sqlite-2.1.0-api.jar;C:/Users/Majid/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar;C:/Users/Majid/AppData/Local/Android/Sdk/platforms/android-30/android.jar;C:/Users/Majid/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="model_debug" />

@@ -9,9 +9,10 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5a0fd972b9e4daddc74615e2a938dc2/jetified-coil-1.2.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac3014d2d9c139baf4a145ef99de81d7/jetified-coil-1.2.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ca8e603b2d87e675e3e2a3629c5d9aa9/transformed/jetified-coil-1.2.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f19bd6ac023c2cf16bec220a53626e02/transformed/jetified-coil-1.2.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f19bd6ac023c2cf16bec220a53626e02/transformed/jetified-coil-1.2.2/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f19bd6ac023c2cf16bec220a53626e02/transformed/jetified-coil-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9ceb3b162b112377c3cfdcee541d89cf/transformed/jetified-coil-1.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9ceb3b162b112377c3cfdcee541d89cf/transformed/jetified-coil-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9ceb3b162b112377c3cfdcee541d89cf/transformed/jetified-coil-1.2.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.coil-kt/coil/1.2.2/1e09f6390ea49f2714a7e32fc4f9daf5515ec486/coil-1.2.2-javadoc.jar!/" />
