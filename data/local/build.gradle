@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+apply from: '../../android_commons.gradle'
+apply plugin: 'kotlin-kapt'
+
+android {
+    defaultConfig {
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments["room.incremental"] = "true"
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+    namespace 'com.majidebrahimi.local'
+
+}
+
+dependencies {
+    // MODULES
+    implementation project(Modules.common)
+    // ROOM
+    kapt Libraries.roomCompiler
+    implementation Libraries.roomRunTime
+    implementation Libraries.roomKtx
+    //LIFECYCLE
+    implementation AndroidLibraries.lifecycleLiveData
+    // TEST MODULE
+    androidTestImplementation project(Modules.commonTest)
+    // DATA MODULE
+    implementation project(Modules.model)
+    // KOIN
+    implementation Libraries.koin
+    //implementation Libraries.koinViewModel
+    // TEST
+    androidTestImplementation TestLibraries.androidTestRunner
+    androidTestImplementation TestLibraries.junit
+    androidTestImplementation TestLibraries.koin
+    androidTestImplementation TestLibraries.archCoreTest
+    //paging
+//    implementation Libraries.paging
+//    implementation Libraries.roomPaging
+
+    implementation Libraries.gson
+
+}

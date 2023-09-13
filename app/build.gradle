@@ -1,0 +1,56 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+apply from: '../android_commons.gradle'
+
+android {
+    defaultConfig {
+        applicationId ApplicationId.id
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        dataBinding = true
+        viewBinding  true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+    namespace 'com.majidebrahimi.common'
+}
+
+dependencies {
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    // COMMON
+    implementation project(Modules.common)
+    // DATA modules
+    implementation project(Modules.local)
+    implementation project(Modules.remote)
+    implementation project(Modules.repository)
+    // DOMAIN MODULE
+    implementation project(Modules.domain)
+    // FEATURES modules
+    implementation project(Modules.featureHome)
+    implementation project(Modules.featureDetail)
+    // NAVIGATION
+    implementation project(Modules.navigation)
+    // KOIN
+    implementation Libraries.koin
+
+    //implementation Libraries.koinViewModel
+    // ANDROID
+    implementation AndroidLibraries.appCompat
+    implementation AndroidLibraries.navigation
+    implementation AndroidLibraries.navigationFrag
+
+}

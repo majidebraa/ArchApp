@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply from: '../android_commons.gradle'
+
+android {
+    namespace 'com.majidebrahimi.common_test'
+}
+dependencies {
+    implementation project(Modules.model)
+    implementation AndroidLibraries.lifecycleLiveData
+    implementation TestLibraries.androidTestRunner
+    implementation TestLibraries.espresso
+    implementation Libraries.koin
+    //implementation Libraries.koinViewModel
+    implementation AndroidLibraries.recyclerView
+    implementation TestLibraries.coroutine
+}

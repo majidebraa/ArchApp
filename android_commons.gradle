@@ -1,0 +1,21 @@
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion Versions.compileSdk
+    // buildToolsVersion Versions.buildToolsVersion
+    defaultConfig {
+        minSdkVersion Versions.minSdk
+        targetSdkVersion Versions.targetSdk
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+        }
+    }
+}
+
+dependencies {
+    implementation KotlinLibraries.kotlin
+
+}

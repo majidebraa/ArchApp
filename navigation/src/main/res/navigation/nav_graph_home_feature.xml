@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph_home_feature"
+            app:startDestination="@id/homeFragment">
+
+    <!-- HOME FRAGMENT -->
+    <fragment android:id="@+id/homeFragment"
+              android:name="com.majidebrahimi.home.HomeFragment"
+              android:label="ArchApp">
+
+        <!-- Go to Detail Fragment (Its graph is responsible to handle response) -->
+        <action android:id="@+id/action_homeFragment_to_detailFragment"
+                app:destination="@id/nav_graph_detail_feature">
+            <argument android:name="login" app:argType="string"/>
+        </action>
+
+    </fragment>
+
+    <include app:graph="@navigation/nav_graph_detail_feature"/>
+
+</navigation>

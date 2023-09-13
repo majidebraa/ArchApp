@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply from: '../android_commons.gradle'
+
+android {
+    namespace 'com.majidebrahimi.domain'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+}
+dependencies {
+    api project(Modules.model)
+    implementation AndroidLibraries.lifecycleLiveData
+}

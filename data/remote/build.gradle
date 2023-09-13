@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+apply from: '../../android_commons.gradle'
+apply plugin: 'kotlin-kapt'
+android{
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+    namespace 'com.majidebrahimi.remote'
+}
+
+
+dependencies {
+    // KOTLIN
+    implementation KotlinLibraries.kotlin
+    // NETWORK
+    implementation Libraries.retrofitCoroutineAdapter
+    implementation Libraries.gson
+    implementation Libraries.retrofit
+    implementation Libraries.retrofitGsonConverter
+    implementation Libraries.httpLoggingInterceptor
+    // DATA MODULE
+    implementation project(Modules.model)
+    // KOIN
+    implementation Libraries.koin
+    //implementation Libraries.koinViewModel
+    // TEST
+    testImplementation TestLibraries.junit
+    testImplementation TestLibraries.koin
+    testImplementation TestLibraries.mockWebServer
+}

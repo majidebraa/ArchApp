@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        google()
+        maven { url 'https://jitpack.io' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        jcenter()
+        gradlePluginPortal()
+
+    }
+}
+
+rootProject.name = "ArchApp"
+include(
+        ":app",
+        ":common",
+        ":domain",
+        ":data:remote",
+        ":data:model",
+        ":data:local",
+        ":data:repository",
+        ":features:home",
+        ":features:detail",
+        ":common_test",
+        ":navigation"
+)

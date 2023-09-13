@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+apply from: '../android_commons.gradle'
+
+android {
+    namespace 'com.majidebrahimi.common'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+}
+dependencies {
+    implementation AndroidLibraries.appCompat
+    implementation AndroidLibraries.navigation
+    implementation AndroidLibraries.recyclerView
+    implementation AndroidLibraries.navigationFrag
+    implementation project(Modules.navigation)
+}

@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply from: '../android_commons.gradle'
+apply plugin: "androidx.navigation.safeargs.kotlin"
+
+android {
+    namespace 'com.majidebrahimi.navigation'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+}
+dependencies {
+    implementation AndroidLibraries.navigation
+    implementation AndroidLibraries.navigationFrag
+}
